@@ -6,11 +6,9 @@ import {selectSort, toggleSort} from "@/features/films/filmsSlice";
 
 type SidebarProps = {
     onAddFilm: (film: FilmType) => void;
-    onSort: (option: SortOption) => void;
-    activeSort: SortOption;
 };
 
-export const Sidebar = ({ onAddFilm, onSort, activeSort }: SidebarProps) => {
+export const Sidebar = ({ onAddFilm }: SidebarProps) => {
     const dispatch = useAppDispatch();
     const currentSort = useAppSelector(selectSort);
 

@@ -1,4 +1,4 @@
-import { FilmType, SortOption } from '@/types/types';
+import {FilmType} from '@/types/types';
 import {SortButtons} from "@components/SortButtons/SortButtons";
 import {AddFilmForm} from "@components/AddFilmForm/AddFilmForm";
 import {useAppDispatch, useAppSelector} from "@app/hooks";

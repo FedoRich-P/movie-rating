@@ -1,6 +1,5 @@
 import {FilmsList} from "@components/FilmsList/FilmsList";
-import {useState} from "react";
-import {FilmType, SortOption} from "@/types/types";
+import {FilmType} from "@/types/types";
 import {Sidebar} from "@components/Sidebar/Sidebar";
 import {useAppDispatch} from "@app/hooks";
 import {addFilm} from "@/features/films/filmsSlice";

@@ -1,0 +1,32 @@
+/* FilmCard.module.css */
+.card {
+  @apply relative  w-full overflow-hidden rounded-xl border border-gray-700 bg-gray-800 p-5 shadow-md last:mb-0 hover:border-gray-600 hover:bg-gray-700/80;
+}
+
+.deleteButton {
+  @apply absolute right-3 top-3 z-10 rounded-full bg-red-500/20 p-1.5 text-red-400 hover:bg-red-500/30;
+}
+
+.titleContainer {
+  @apply flex items-center gap-2;
+}
+
+.title {
+  @apply text-xl font-bold text-white;
+}
+
+.date {
+  @apply text-sm text-gray-400;
+}
+
+.ratingContainer {
+  @apply mt-auto flex justify-end gap-2;
+}
+
+.rateButton {
+  @apply rounded-full bg-green-600 px-3 py-1 text-sm font-medium text-white hover:bg-green-700;
+}
+
+.ratingLabel {
+  @apply text-white;
+}
